@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 1px solid blue; */
+    outline: 1px solid blue;
 }
 
 body {
@@ -61,7 +61,7 @@ header .nav-bar{
 }
 
 .section-1 {
-    height: 90vh;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -71,7 +71,7 @@ header .nav-bar{
 
 .content-1 {
     width: 40%;
-    height: 40vh;
+    /* height: 40vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -114,22 +114,23 @@ header .nav-bar{
     background-color: #F9F9F9;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    height: 70vh;
-    padding: 0 6%;
+    /* height: 500px; */
+    padding: 6%;
 }
 
 .content-2 {
     text-align: center;
     width: 40vw;
+    padding: 3% 0;
 }
 
 .container-img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50vh;
+    height: 400px;
     width: 100%;
     text-align: center;
 }
@@ -156,13 +157,14 @@ header .nav-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 6%;
-    height: 90vh;
+    padding: 6%;
+    /* height: 90vh; */
 }
 
 .content-3 {
     width: 50%;
-    height: 30vh;
+    /* height: 30vh; */
+    padding: 6% 2%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -172,6 +174,10 @@ header .nav-bar{
     font-size: 52px;
     font-weight: 600;
     line-height: 55px;
+}
+
+.content-3 p{
+    margin: 30px 0;
 }
 
 .img-s3 {
@@ -207,7 +213,7 @@ footer{
     align-items: center;
     justify-content: space-between;
     padding: 0 6%;
-    height: 12vh;
+    height: 90px;
 }
 
 .nav-foot{
@@ -245,11 +251,11 @@ footer{
     .section-1{
         justify-content: center;
         text-align: center;
-        height: 60vh;
+        /* height: 60vh; */
     }
 
     .content-1{
-        height: 70%;
+        /* height: 70%; */
         width: 80%;
         display: flex;
         align-items: center;
@@ -263,11 +269,11 @@ footer{
     }
 
     .section-1{
-        height: 60vh;
+        /* height: 60vh; */
     }
 
     .section-2{
-        height: 200vh;
+        /* height: 200vh; */
     }
 
     .content-2{
@@ -279,7 +285,7 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 90%;
+        /* height: 90%; */
         margin: 20px;
     }
 
@@ -290,11 +296,11 @@ footer{
     .section-3{
         justify-content: center;
         text-align: center;
-        height: 40vh;
+        /* height: 40vh; */
     }
 
     .content-3{
-        height: 90%;
+        /* height: 90%; */
         width: 80%;
         display: flex;
         align-items: center;
@@ -316,7 +322,7 @@ footer{
     }
 
     .section-3{
-        height: 60vh;
+        /* height: 60vh; */
     }
 
     .nav-header{
